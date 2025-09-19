@@ -42,8 +42,8 @@ const Hero = () => {
       .timeline({
         scrollTrigger: {
           trigger: "#hero",
-          start: "top top",
-          end: "bottom top",
+          start: "top 80%", // triggers when top of section hits 80% viewport height
+          end: "bottom 20%",
           scrub: true,
         },
       })
