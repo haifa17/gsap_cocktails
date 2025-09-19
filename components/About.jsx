@@ -26,6 +26,7 @@ const About = () => {
         yPercent: 100,
         ease: "expo.out",
         stagger: 0.02,
+        once: true,
       })
       .from(
         ".top-grid div, .bottom-grid div",
@@ -34,6 +35,7 @@ const About = () => {
           duration: 1,
           ease: "power1.inOut",
           stagger: 0.04,
+          once: true,
         },
         "-=0.5"
       );
