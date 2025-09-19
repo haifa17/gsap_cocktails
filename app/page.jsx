@@ -2,6 +2,7 @@
 import About from "@/components/About";
 import Art from "@/components/Art";
 import Cocktails from "@/components/Cocktails";
+import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import gsap from "gsap";
@@ -17,6 +18,7 @@ export default function Home() {
       <Cocktails />
       <About />
       <Art />
+      <Contact />
     </div>
   );
 }
